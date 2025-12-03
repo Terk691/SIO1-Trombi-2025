@@ -1,0 +1,24 @@
+#AGDIK
+
+{
+	background-color: #B539A7;
+	border-radius: inherit;
+    background: conic-gradient(
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        magenta,
+        red
+);
+	display: inline-block;
+  animation: rotate 3s linear ;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+
+}
